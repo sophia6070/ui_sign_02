@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 220px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+:root {
+  --Blue: #0a66c2;
+  --Gray: #d4d0d0;
+  --Midgray: #908d8d;
+  --Darkgray: #474646;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.input_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1060px;
+  height: 800px;
+  display: flex;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.12);
+}
+
+.left {
+  width: 660px;
+  height: 800px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+}
+
+.left p {
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.left p span {
+  color: var(--Blue);
+}
+
+.left h2 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-bottom: 109px;
+  color: #646464;
+}
+
+.left .input_box .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.left .input_box .inputs input {
+  padding: 17px 20px;
+  border: 1px solid #d4d0d0;
+  background-color: #f5f6f7;
+  border-radius: 6px;
+}
+
+.left .input_text {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  font-size: 14px;
+}
+
+.left .btns {
+  display: flex;
+  justify-content: center;
+}
+
+/* right */
+.right {
+  width: 400px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.right .text_box {
+  position: absolute;
+  top: 33px;
+  left: 165px;
+  color: #fff;
+  /* transform: translateX(); */
+  width: 306px;
+}
+
+.right .text_box h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.right .text_box span {
+  color: #fbbc05;
+}
+
+.right img {
+  width: 600px;
+  display: block;
+}
